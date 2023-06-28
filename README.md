@@ -12,8 +12,8 @@ This repository demonstrates how to integrate ChatGPT, a powerful language model
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/
-   cd chatgpt-telegram-integration
+   git clone https://github.com/jojisamuel/telebot.git
+   cd telebot
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -31,24 +31,18 @@ This repository demonstrates how to integrate ChatGPT, a powerful language model
 
 ## Configuration
 
-1. Rename the `.env.example` file to `.env`:
+1. Create `.env` file and add the following variables:
 
-   ```bash
-   mv .env.example .env
-   ```
-
-2. Open the `.env` file and update the following variables:
-
-   - `CHATGPT_API_KEY`: Replace with your ChatGPT API key or access token.
-   - `TELEGRAM_BOT_TOKEN`: Obtain a Telegram bot token by following the [Telegram Bot documentation](https://core.telegram.org/bots#3-how-do-i-create-a-bot).
-   - `TELEGRAM_CHAT_ID`: Your Telegram chat ID. Start a chat with your bot and get the ID using the `/get_id` command.
+   - `OPENAI_API_KEY`: Replace with your ChatGPT API key or access token.
+   - `TOKEN`: Obtain a Telegram bot token by following the [Telegram Bot documentation](https://core.telegram.org/bots#3-how-do-i-create-a-bot).
+  
 
 ## Usage
 
 1. Start the bot by running the following command:
 
    ```bash
-   python bot.py
+   python tele_bot.py
    ```
 
 2. Open your Telegram app and search for your bot.
