@@ -1,6 +1,3 @@
-Sure! Here's an example of a README file with formatting for GitHub that provides a summary of how to integrate ChatGPT with Telegram:
-
-```
 # ChatGPT Telegram Integration
 
 This repository demonstrates how to integrate ChatGPT, a powerful language model, with Telegram to create an interactive chatbot. By following the steps below, you'll be able to set up your own Telegram bot powered by ChatGPT.
