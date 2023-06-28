@@ -1,0 +1,24 @@
+ignore_content = """
+# Python
+*.pyc
+__pycache__/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+
+# System and temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+"""
+
+with open(".gitignore", "w") as f:
+    f.write(ignore_content)
