@@ -30,7 +30,7 @@ TOKEN = os.getenv("TOKEN")
 
 
 # Model used in chatGPT
-MODEL_NAME = "davinci"
+MODEL_NAME = "gpt-3.5-turbo"
 
 
 # Initialize bot and dispatcher
